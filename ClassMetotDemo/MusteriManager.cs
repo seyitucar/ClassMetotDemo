@@ -6,7 +6,7 @@ namespace ClassMetotDemo
 {
     class MusteriManager
     {
-        public void MusteirEkle(Musteri musteri)
+        public void MusteriEkle(Musteri musteri)
         {
             Console.WriteLine(musteri.Ad + " " + musteri.Soyad + " eklendi");
         }
@@ -14,7 +14,7 @@ namespace ClassMetotDemo
         {
             Console.WriteLine(musteri.Ad + " " + musteri.Soyad + " silindi");
         }
-        public void MusteriListele(Musteri[] musteriler)
+        public void MusteriListele(List<Musteri> musteriler)
         {
             foreach (var musteri in musteriler)
             {
